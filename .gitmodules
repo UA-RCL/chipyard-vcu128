@@ -1,0 +1,4 @@
+[submodule "chipyard"]
+	path = chipyard
+	url = git@github.com:UA-RCL/chipyard.git
+	branch = main
