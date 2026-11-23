@@ -214,6 +214,10 @@ ssh-keygen -R <board-ip>
 ssh root@<board-ip>
 ```
 
+### 8. CEDR (optional)
+
+To run the [CEDR](https://github.com/UA-RCL/CEDR/tree/hcw-2024) runtime and its applications on the board, cross-compiled for riscv64, see [CEDR.md](CEDR.md).
+
 ## Troubleshooting
 
 - **`Error 16 from open: Device or resource busy`:** another program has the port open, usually a `screen` session (`screen -ls`, then `screen -X -S <name> quit`). Check with `fuser -v /dev/ttyUSBx`.
